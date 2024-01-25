@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #b0bc98;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #b0bc98;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  display: inline-block;
+  padding: 1em;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.active,
+nav ul li a:hover {
+    text-decoration: double;
+    text-decoration-color: #31572c;
+    font-weight: bold;
+}
+
+.brand {
+  font-size: 1.5em;
+  width: 30vw;
+  height: auto;
+  padding-bottom: 0.5em;
+}
+
+.subheader {
+  background-color: #31572c;
+  text-align: center;
+  color: #fff;
+  padding: 1em;
+}
+
+.section {
+  padding: 2em;
+}
+
+.info-section {
+  background-color: #dae2d6;
+  padding: 2em;
+}
+
+.info-section h2 {
+  margin-bottom: 1em;
+}
+
+.info-section p {
+  line-height: 1.5;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #b0bc98;
+}
+
+.feature {
+  flex: 1;
+  padding: 1em;
+  margin: 1em;
+  text-align: center;
+  border-radius: 5%;
+  background-color: #cad2c5;
+}
+
+.product-section {
+  padding: 2em 0em;
+  text-align: center;
+  overflow-x: hidden;
+  background-color: #dae2d6;
+}
+
+.product-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-images img:first-of-type {
+  width: 25%;
+  margin-left: 1em;
+  border-radius: 5%;
+}
+
+.product-images img:nth-of-type(2) {
+  width: 35%;
+  border-radius: 5%;
+}
+
+.product-images img:nth-of-type(3) {
+  width: 25%;
+  margin-right: 1em;
+  border-radius: 5%;
+}
+
+.product-description {
+  display: flex;
+  flex-direction: column;
+  background-color: #dae2d6;
+}
+
+.product-description h2,
+.product-description p {
+  margin-top: 1.5em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.product-description img {
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  border-radius: 5%;
+}
+
+.over-images {
+  display: flex;
+  justify-content: space-between;
+  background-color: #cad2c5;
+}
+
+.over-image {
+  flex: 1;
+  margin: 1em 1em;
+  width: 30%;
+  background-color: #31572c;
+  border-radius: 5%;
+}
+
+footer {
+  background-color: #31572c;
+  color: #fff;
+  text-align: center;
+  padding: 2em;
+  width: 82.9%;
+}
